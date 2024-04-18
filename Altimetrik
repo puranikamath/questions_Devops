@@ -3,23 +3,39 @@
 3. explain stages of pipeline job
 4. what are build tools you used -explain maven life cycle
 5. build is failing in deployment what could be the reason
+  ANS: check logs
 6. have you worked on boto3
 7. script to take jenkins backup and store it in s3
 8. explain dockerfile
 9. how you check java path and how you update java path
+  ANS:can modify the .bashrc or .bash_profile file
+  export JAVA_HOME=/path/to/java
+  export PATH=$JAVA_HOME/bin:$PATH
+  Temporary Update:
+  export PATH=/path/to/java/bin:$PATH
+
 10. explain modules in ansible and explain playbook to install application
 11. do you have expierence on upgrading and patching, what level of patching and while tool your using and process
+  ANS: yes 1. Application level 2. OS level
+  Configuration Management tools like ansible
+
 12. how frequently your writting terraform template
+  ANS : I write Terraform templates as needed based on project requirements and infrastructure changes. The frequency can vary depending on the project workload 
+
 13. write template to create aws loadbalancer I need working template
 14. what type of application you are working
 15. how many microservices are there
 16. how microservices are deploying onto k8s any terraform template is there and explain yml files
 17. how you are orchestraing k8s environment to environment 
+  ANS: namespace
 18. explain k8s architecture
 19. how you are deleteing pods
+  ANS:kubectl delete pod <pod-name>
 20. how frequently your writing manifest files
 21. how you configured promothus and grafana explain
 22. eks configuration pre-requisites - which process you followed and tell commands you used for creation
+  ANS:eksctl create cluster --name my-cluster --region us-west-2 --node-type t2.medium --nodes 2 --managed
+
 23. have you configured RDS and explain process
 24. have you worked on cost optimizaion project- how you do it
 25. how you are checking vulunaribility 
