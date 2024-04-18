@@ -1,0 +1,15 @@
+explain ci cd pipeline? what are the challenges faced in CI CI pipeline?
+explain ebs and efs?
+explain branching startegy?
+how hotfix branch works with example?
+why do you use state file ? how the state file configuration is done? why do you keep state file?
+Explain the state locking and why do you use?
+explain the componenets of kubernetes?
+write a terraform to create a ec2 instance and change the default ip to ellastic ip?
+explain the claster architecture
+when pod is running when a high traffic comes in anew pod is created how it is created explain?
+how do you optimize docker images for size
+when a user hit the url? the user is getting navigated to respective pod/container how that flow goes? 
+what is kubernetes load balancer
+what is init container and when you use that?
+How do you check crashloopback error
