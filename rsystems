@@ -1,0 +1,12 @@
+1. What have you done on Argo CD
+2. How your microservices were accessed by the end user externally
+3. How do you monitor the eks cluster. What are the tools involved
+4. Present your screen and write the architecture of your cluster
+5. What is helm, how was it used in your project
+6. How did you configure grafana and Prometheus for monitoring
+7. Write a Jenkins pipeline which should handle multiple environments 
+8. My EC2 is full how do you handle this
+9. Ppk or pem file is deleted. What is the workaround to connect to the instance get the data
+10. What is multiaz in RDS
+11. How to migrate onpremise VM to cloud
+12. How do you connect on premise VM to cloud
