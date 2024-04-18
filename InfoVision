@@ -1,0 +1,30 @@
+what is git stash?
+difference git pull and fetch?
+what aws services you have worked?
+explain about vpc and sub component?
+have you get chance to work with lamdas?
+have you heard about waf?
+what data base have you worked on? can you explain mogo db
+what are the CI/CD tools have you worked and explain complete pipeline work?
+how do you save the sensitive information in jenkins? 
+what are the deployment strategy you  have used?
+can you explain the docker file instructions?
+explain terraform life cycle
+what information details will state file contains?
+what if we lost the state file can we generate back?
+explain terraform backend?
+how frequently your writting terraform template
+How were you passing environment variables to kubernetes via your Jenkins
+explain k8's architeture?
+explain cluster architecture
+explain pod life cycle?
+why do we need pod?
+how do you manage the secrets in k8's?
+what programming languages are you comfortable?
+Can we manage Windows Nano Server using Ansible?
+Explain ansible architecture?
+Explain how you will copy files recursively on a host?
+expalin ansible modules each
+what is idempotency
+Explain Callback_plugin in Ansible
+What is ask sudo pass and explain
