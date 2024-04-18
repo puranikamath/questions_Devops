@@ -1,0 +1,11 @@
+how do you manage the disaster recovery in aws s3
+what is a permanent solution if s3 bucket storage is full?
+why do you create vpc?
+do you managed any resources in terraform?
+how do you monitor ec2 instance?
+How would you set up a highly available web application in AWS using EC2, ELB, and Auto Scaling?
+Can you describe the process of setting up a continuous delivery pipeline in AWS using CodePipeline and CodeBuild?
+how does company shift from monolithic to microservices and how can they club kuvernetes into it?
+Explain the Elastic Beanstalk deployment modes
+how were you passing environmentvariable in k8?
+how  blue-green deployment strategy was on AWS involves creating two identical environments and how you set up?
