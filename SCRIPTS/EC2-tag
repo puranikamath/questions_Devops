@@ -1,0 +1,18 @@
+script to tag ec2 if it's not tagged 
+
+#!/bin/bash
+
+# Get list of EC2 instance IDs
+instance_ids=$(aws ec2 describe-instances --query 'Reservations[*].Instances[*].InstanceId' --output text)
+
+# Loop through each instance
+for instance_id in $instance_ids; do
+    # Check if "Name" tag exists for the instance
+    if ! aws ec2 describe-tags --filters "Name=resource-id,Values=$instance_id" "Name=key,Values=Name" | grep -q "Value"; then
+        # Tag the instance with a default name if no "Name" tag exists
+        aws ec2 create-tags --resources "$instance_id" --tags "Key=Name,Value=DefaultName"
+        echo "Instance $instance_id tagged with default name."
+    else
+        echo "Instance $instance_id already has a name tag."
+    fi
+done
