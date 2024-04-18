@@ -30,3 +30,34 @@ How do you check crashloopback error
 What is the backend you used for terraform, could you write your backend config - for this he was interested in the Dynamo db table
 17. What do you understand when a file has permission 0774
 18.What are the cost optimization steps you have taken for your AWS services
+git:
+1. How do you decide a branching strategy. What are the different branching strategies you are aware of
+2. diff between git revert and git reset
+Jenkins:
+1. Share your screen and write your CI CD pipeline
+2. Suppose you want to upgrade Jenkins, without having downtime how do you do that.
+3. How do you take Jenkins backup, where do you store the backup, how frequently you used to take back up. How the backup scripts used to get triggered
+Terraform:
+1. Where did you keep your state files
+2. Was there any scenario where you had to load from a S3 backup. How did you do that
+3. Where were your terraform scripts stored at
+Ansible:
+1. Write an ansible playbook to install a software
+AWS:
+1. Difference between ALB and NLB
+2. WAF, ACL and NACL how do you configure that 
+3. Calculate CIDR for a given range
+4. What is ARM and it's benefits. Mainly was expecting the use case
+5. Have you used codeguru, cloud formation templates, code pipeline what is the difference between these
+6. How do you control traffic spikes to your service 
+Kubernetes:
+1. How do you choose a deployment strategy take an example of canary and rolling update in which scenario you go for canary and in which scenario you go for rolling update
+2. Write a daemonset manifest
+3. Write deployment manifest
+4. How to upgrade the cluster to the latest version what is your approach
+DevSecops:
+1. What is your understanding of DevSecops why people are more tending towards it
+2. What is Black Duck
+Python:
+1. What is your proficiency in python 
+2. Write a logic to check whether two strings are anagram
