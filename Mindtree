@@ -13,3 +13,20 @@ when a user hit the url? the user is getting navigated to respective pod/contain
 what is kubernetes load balancer
 what is init container and when you use that?
 How do you check crashloopback error
+1. Write deployment manifest file Including the deployment strategy
+2. How do you check crashloopback error and identify the cause of it
+3. How do you scale if the number of microservices increases
+4. Suppose two persons change the terraform file and apply their changes what would happen, how do you prevent such a thing from happening
+5. A developer does some wrong changes but he hasn't committed his changes, what are the steps he would perform to rectify it
+6. Where to find Linux debug logs
+7. Are you aware of what SID, gid could you explain
+8. Explain you CI/CD pipeline
+9. Are you aware of Amazon code pipeline
+10. You have EBS in one region, how do you take a backup to another region
+11. What are the commands you are aware of to check the Linux machine performance
+13. How many Target host you have managed via ansible
+14. Explain ansible facts
+15. Explain server provisioning+configurationanagement you used in your project
+What is the backend you used for terraform, could you write your backend config - for this he was interested in the Dynamo db table
+17. What do you understand when a file has permission 0774
+18.What are the cost optimization steps you have taken for your AWS services
