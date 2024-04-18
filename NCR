@@ -1,0 +1,36 @@
+AWS:
+1. What are the AWS services you are aware of
+2. What are the resources and metrics which were monitored using cloud watch
+3. What are the networking concepts you are aware of. What is the use of a transit gateway
+4. Suppose you have multiple accounts how do you establish communication between VPC's using transit gateway in that case
+5. EKS cluster architecture created using cloud
+Kubernetes:
+1. What is the use of daemonset. Suppose I want to create multiple replicas how to modify the daemonset
+2. How did you manage releases using helm. How was helm used in your project.
+3. You have made a kubernetes deployment and the deployment failed for some reason how do you troubleshoot it.
+4. How do you ensure your Jenkins deployment deployed to the right environment of Kubernetes(suppose you have dev, QA, pre-prod and prod environments)
+5. How did you create your kubernetes cluster using IAC, explain the steps involved
+6. What is your understanding about ArgoCD.
+Management:
+1. I see you working on various roles, how come you were promoted as a Devops manager how did this transition happen
+2. How did you integrate grafana in your project
+3. The answer you said is more on the ops end for grafana, have you worked on any real time tracking and gathering the data to show the dashboard?
+4. What is a rail transit system, I don't know anything about it, help me to understand and explain interms of a layman..
+5. The same for powersystem project which I had worked for
+6. What are the cybersecurity principles you are aware of
+7. How do you segregate your activities technically as well as from people management? What is the percentage you work technically and what is the percentage you manage people
+8. How did you give constructive feedback to your reportees and how the disagreement was solved?
+9. Have you fired anyone?
+10. What is the architectural change you proposed and how was it handled and presented to the relevant srakeholders
+
+1. What is the deployment strategy you are aware of
+2. Why did you choose canary deployment 
+3. What is blue green deployment strategy 
+4. How were the different environments managed via Jenkins pipelines
+5. How were you passing environment variables to kubernetes via your Jenkins
+6. What are the different metrics you were monitoring via prometheus-Grafana
+7. What is helm template. How were you using helm for release management
+8. How did you break monolithic application to micro services what was the strategy involved. How your containers were managed
+9. What is Kafka and where was it predominantly used in your project.( Later understood they also work on Kafka)
+10. Explain your Jenkins CI/CD. As you deal with customer how was the complex application shipped and deployed to your customer
+11. What are the different metrics which can be gathered via cloudfront
