@@ -1,0 +1,13 @@
+1.introduction
+2.tell me aws services you have used
+3.in route53 what is the use of hosted zone and record set
+4.difference b/w A record and quad A
+5.in ec2 instance what is the meaning of instance metadata and userdata and how you going to access them and where you find it 
+  and modify it(someone have given that) you joined lately and   you have to modify it (where does aws stores this data)
+6. write script in python or shell to tag ec2 instance if it's not tagged if it's tagged it has to skip it 
+7. write script in python or shell given port number is open or not open
+8. what is static pod and who maintains
+9. difference b/w secreat and configmap - can we pass secret in configmap 
+10. different types of probes
+11. what is you understanding on various devops matrix
+12. have you worked on platform as service 
