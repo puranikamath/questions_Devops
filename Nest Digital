@@ -1,0 +1,38 @@
+1. Introduction
+2.describe recent issue you faced and your contribution you maid to fixed that issue ?
+3.tell me what was the cause for that issue and wat is the resolution you took to fix that issue?
+4.security is paramount concern when using docker container in production environment how would you design 
+and impliment the comprehensive security strategy for dockerised obrevation and discuss the technique for 
+security container  runtime security, network segmentation, and vulnarability scanning, access control
+and profile quality
+5. what are the monitoring tool available
+6. monitoring and login are essentialand diagnozing issues in dockerised importance how would design a monitoring 
+and logging solution that provide inside into container help a reource utilization and application performance
+discuss the tools and details for collecting container matrix agregating log setting up alerts and provisioning issues
+7. The organization wants to adopt a hybrid cloud strategy running k8 cluster both on permises, cloud and public cloud
+how would you design a k8's deplyment architecture that expand multiple environment by ensuring consistency operative availability
+and data synchronization such as hybrid cloud networking goal that has reduandancy and security
+8. tell me about consideration such as hybrid cloud, networking, work-load probability 
+9.organization has legacy application that need to be modernized and migrated to k8's for improve agility, scalability and efficiency
+how would you approach application modernization including synchronization, microservices, decomposition and k8's related deplymen has 
+best practices and discuss strategy for legacy application for asynchronization and synchrnization tool k8's migration pattern 
+nd effective efficiency.
+10. discuss r abnormal condition is critical for proactive maintainance how would you design shell script for monitor system resource, 
+check service availability,and generate  altert based on predefined condition discuss technique for implementing cron jobs sending
+notification and integarting the monitoring system like promothesis
+11. the organization uses the orcestration platform like k8's / docker swarm to manage containerised work load 
+how would you design shell script to interact with these platform nd deploy appln scales services and performance rolling update
+discuss technique interact with api and managing configuration file and integrating with container registory
+12. organization wants to adopt a multi cloud strategy to laverage the 
+13. strength of different load providers how would you design deployment archi that span aws azure while ensuring data consistency
+and cost obrevation. discuss abbrevation such as work load probability, network connectivity and deployment orchestration
+14. optimizing cost is essential in cloud env where the resources are allocated where on demand how woild you design optimization 
+strategy that laverage cloud services like aws, cost exploror, azure cost management cost calculator to identify cost drivers, optimization
+resouce usage and cost saving.
+15. your team has task with implimenting CI/CD pipeline for a new apex module how would you design nd configure pipeline to ensure
+ seamless integration nd deplyment of the module.
+16. company is emprasing infrastructure as code to automate provisioning and configuraing along application delployment how would you integrate
+the tool like terraform/ aws with ci/cd pipeline to provision nd manage with app deployment discuss strategy of versioning nd testing orcestrating
+infrastructure resources changes.
+17. working on a project where multiple team are collaborating different microservices but need to communicate with each other how would you design 
+networking architecture to communicate with each other
