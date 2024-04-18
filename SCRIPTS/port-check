@@ -1,0 +1,8 @@
+given port open or not
+
+
+#!/bin/bash
+
+port=80
+
+netstat -an | grep -q ":$port.*LISTEN" && echo "Port $port is open" || echo "Port $port is not open"
