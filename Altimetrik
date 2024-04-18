@@ -24,3 +24,36 @@
 24. have you worked on cost optimizaion project- how you do it
 25. how you are checking vulunaribility 
 26. how you achive multistage docker image
+
+1. What type of cluster your using in your organization? How many cluster your maintaining in your organization
+2. In 10 nodes I want to change 3 nodes as instance type t2 to t3 series. How can I change it ? where I have this option?
+3. Explain how your going to setup & monitor your cluser step by step . Explain each process
+4. What is the command to loggining into pod 
+5. what is exec stands for
+6. How you will allocate the metrix? 
+7. Do you have any check in CICD?
+8. Difference b/w play and playbook
+9. Difference b/w resource & module in terraform 
+10. I want to deploy 3 environment(dev,prod,test) using single module, how can I do that, how do you do this configuration?Explain
+11. How you maintain secrets in Terraform what are the options you have
+12. Difference b/w state file & log file
+13. What is Lambda function
+14. In route 53 what are the configurations are there 
+15. What are the rules mention in s3 bucket which rule I need to select for static website
+16. Write a IAM policy for s3 bucket ? What are the actions you will mention in it?
+17. I have created resource using terraform. later I change terraform version  1.3 to 1.5 , I changed this value in all *.tf files. When I do terraform init          	and apply what happens? Weather it will change or if you will get error, what error you will get 
+18. How you configure load balancer using route 53 
+19. what is service account
+20. I have s3 bucket in one region ang KMS in another region? 
+21. How would you set up monitoring and logging using tools like Prometheus, Grafana and set up alerts for abnormal behavior?
+  What are the things you monitor in grafana board 
+22. How you connect 5 vpc ? 
+23. In declerative pipeline I can write groovy script? can you write sample CICD for that?
+24. In ansible I want to execute single task, how can I execute that 
+Write ansible playbook
+25. what is adhoc commands , tell me some adhoc commands
+26. How do you declare variables in ansible, write sample ansible playbook for it
+27. How do you clean up your EC2 instance.
+28. How do you do clean up activity in K8s cluster. what are the things you will do
+29. What is namespace & its uses.
+30. I want to create a namespace and I want to restrict it for 4 persons. Others should not able to login for that namespace. How can I do that?
