@@ -1,0 +1,21 @@
+what are the services experience you are having under AWS?
+what is the use of snap shot?
+You have EBS in a1 region, want to copy the content to a2 region is it possible? if possible how?
+difference between ellastic block storage and instance storage
+why you want to create vpc ? explain 
+different types of services in k8
+difference btween public subnet and private subnet
+under route53 what is private and public zone
+different types of routing policies
+What is multiaz in RDS
+why mounting is used?
+what is object storage? have you worked on object storage
+what are the types of object storage?
+what is diference docker swarm and kubernetes?
+what are the services available in k8?
+Difference between ClusterIp and NodePort?
+Types of monitoring tools to monitor docker/K8s
+What is daemonset.I want to create multiple replicas how you modify the daemonset
+Type of K8s setup used to host database
+how to deploy the app in different environment like dev ,QA, Prod?
+what is the use of persistant volume and Persistent volume claim (PVC) ? explain with example?
