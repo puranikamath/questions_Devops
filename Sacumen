@@ -1,0 +1,19 @@
+1. aws services you have worked
+2. write script to turn of aws ec2 instances at 5pm and turn on in morning 8am everyday
+3. write script to delete all empty files under a directory 
+4. what do you mean by terragrunt in terraform
+5. what is dry in terraform
+6. different types for remote backend u have used
+7. how can you setup jenkins job process
+8. explain about shared library in jenkins
+9. explain about static and dynamic inventory 
+10. how will you deploy file to minion of other minion
+11. write python script "hello world" how many times each charaters are there in string without builtin functions 
+12. differnce b/w softlink and hardlink
+13. how to figure out which crone job chokes up your system in linux and describe process to fix it (how do you identify which crone job is responsible for which process)
+14. explain how you handle exception in jenkin pipeline
+15. difference alb and elb
+16. use of WAF and rate limiting
+17. which senario you choose ingress, egress vs alb and why
+18. how ingress different from gateway
+19. what is auto scaling and policies of it
