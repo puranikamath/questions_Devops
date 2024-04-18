@@ -34,3 +34,15 @@ Management:
 9. What is Kafka and where was it predominantly used in your project.( Later understood they also work on Kafka)
 10. Explain your Jenkins CI/CD. As you deal with customer how was the complex application shipped and deployed to your customer
 11. What are the different metrics which can be gathered via cloudfront
+1. Suppose your microservices are increasing, how do you scale horizontal or vertical
+2. How did you decide what should be the loads and how did you distribute your cpu and network load
+3. How were your infra pipeline and application pipeline configured and different. How do you used to trigger then
+4. Was the sonar scan report automated, if so how do you used to read the output and pass/fail the build
+5. Have you setup a CDN
+6. What are the network concepts you are aware of, and  configuring of ACL, NACL was done by your network team or you?
+7. Suppose an already created cluster is having performance issues, how do you troubleshoot it and optimize it
+8. How did you convince your management to go with Kafka bus? Did you give your design views or followed your architects instruction
+9. Have you fired/ or forced to fire a person from your team. How did you handle this situation
+How were your test stages configured, how were the automated test results interpreted, what was the criteria to pass or fail this step.
+There is already a Devops toolchain used, what would be your approach to analyse and propose a cost effective approach
+How do you propose the new solution to your management and how do you convince them
