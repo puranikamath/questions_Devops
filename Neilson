@@ -1,0 +1,41 @@
+Write a shell script service
+Diff b/z git pull & clone
+Explain the process of PR[pull request]
+Diff b/w ADD & COPY 
+How will you create a secret 
+What is nodeselector in K8s
+what kind of error u get in K8s
+why we get oomkilled error in K8s . How you will resolve this
+What kinds of EC2 instances are there in AWS
+Explain s3 lifecycle & its policy
+Difference b/w security group & NACL
+Explain terraform workflow
+What is Deamonset why we use Deamonset?
+What is stateful set?
+
+what is your roles and responsibility
+Explain in CICD step by step
+Branching strategy 
+which tool you used for logging information in k8s
+How are you seggregating the environment example I have dev,qa, prod. How would you differenciate I want to deploy on to the dev environment.
+In pipeline after CI it is asking for any approval for deploy?
+Explain the process of involved in migration from onpremise to aws?
+Have you worked on Route 53, why it is route 53, why it is not called route 54 or 55?
+what is MX record ? we use A record when we use CNAME record?
+I have 2 EC2 instance running, there is a ALB before that. In this case which record you use to map your request to EC2 instance--> we use CNAME record
+Explain about autoscaling group
+There are 5 ec2 running, let say there are more traffic comming need to increase ec2 instance from 5 to 10. Based on what your ASG comes to know, that it has to increase the number of ec2 instance? 
+what is the configuration we tell ASG to increase EC2 instance
+I have an EC2 instance  running, I stop that ec2 instance and come back after 2 days and start it back , what will happen to the data?
+When you use ALB and NLB?
+what is sidecar?
+Consider there is a issue with application, manager ask you to send logs? There are 100s of pods how you take logs of these pods ?which log tool guys are using ? How you share logs to the manager?
+I have 5 master node and 10 worker node. My master node crashes what happen to the worker node? what will happen to the running application?
+What are private modules in terraform?
+What is state locking in terraform?
+we have terraform configuration that has no resources, if I execute the terraform apply command what will happen
+there some resources created earlier using some terraform configuration file? If I go the configuration file and modify it I will all resources in the configuration file, now I perform terraform apply command what happens
+Write a sample docker file 
+Write a Deployment yml file?
+Write a jenkin file to login to docker registry and push image to docker registry
+Jenkins server is not running how do fix it, What are the linux commands you use , how do you fix it
