@@ -1,0 +1,57 @@
+pipeline {
+    agent any 
+    parameters {
+        choice(name: 'ENV', choices: ['dev', 'test'])
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'YOUR_GIT_URL', branch: 'main', credentialsId: 'your-credentials-id'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+        stage('Unit Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Code Analysis') {
+            steps {
+                sh 'mvn sonar:sonar'
+            }
+        }
+        stage('Docker Build') {
+            steps {
+                sh 'docker build -t imagename:$BUILD_NUMBER .'
+            }
+        }
+        stage('Push Image to ECR') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'docker-creds', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                    sh "docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD"
+                    sh "docker tag imagename:$BUILD_NUMBER ECR-reponame:$BUILD_NUMBER"
+                    sh "docker push ECR-reponame:$BUILD_NUMBER"
+                }
+            }
+        }
+        stage('Helm Package') {
+            steps {
+                sh 'helm package app-name'
+            }
+        }
+        stage('Helm Deploy') {
+            when {
+                expression {
+                    params.ENV == 'dev'
+                }
+            }
+            steps {
+                sh 'helm install app-name'
+            }
+        }
+    }
+}
