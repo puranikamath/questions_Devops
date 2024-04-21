@@ -29,6 +29,11 @@ pipeline {
                 sh 'docker build -t imagename:$BUILD_NUMBER .'
             }
         }
+        stage('Twistlock Scan') {
+            steps {
+                sh 'twistcli images scan imagename:$BUILD_NUMBER'
+            }
+        }
         stage('Push Image to ECR') {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'docker-creds', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
