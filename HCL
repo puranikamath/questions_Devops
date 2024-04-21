@@ -1,0 +1,29 @@
+json_data = {
+    "repo1": ["branch1", "branch3", "branch5", "branch6", "branch4"],
+    "repo2": ["branch2", "branch3", "branch4"],
+    "repo3": ["branch2", "branch10"],
+    "repo4": ["branch5", "branch1"],
+    "repo5": ["branch6", "branch10"]
+}
+ 
+write a python script to read a csv file which contains branch names and compare with the json_data provided and pull the repo name and print.
+ 
+Branch Names in CSV file.
+"branch1","branch5","branch2","branch10"
+
+1) Explain your project? What was your role?
+2) Different data types in python?
+3) Different python libraries?
+4) What automation have you done using python?
+5) Have you used tuples?
+6) What is master and cluster nodes in kubernetes?
+7) How will you use python to fetch monitoring data from grafana?
+8) Describe configmaps and how secrets are handled in kubernetes?
+9) How to pass built in values from Git or gitlab to your deployment pipeline?
+10) How do you protect the release branch?
+11) Have you worked on Azure?
+12) Have you worked on gitlab?
+13) Have you written any python scripts to fetch data from pipeline?
+14) How did you configure loadbalancer in your application?
+15) I need to delete a pod, what approach do you follow?
+16) What is a pickle and unpickle in Python?
