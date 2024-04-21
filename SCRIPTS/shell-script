@@ -1,0 +1,21 @@
+shell script
+input
+pandas 1.0.8 pypi
+numpy 1.87.0 pypi
+cherry red
+
+output 
+pandas == 1.0.8
+numpy == 1.87.0 
+
+
+#!/bin/bash
+
+while read -r line; do
+    package=$(echo "$line" | awk '{print $1}')
+    version=$(echo "$line" | awk '{print $2}')
+
+    if [[ "$line" == *pypi* ]]; then
+        echo "$package == $version"
+    fi
+done
