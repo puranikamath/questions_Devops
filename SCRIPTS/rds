@@ -9,7 +9,8 @@
 1. select engine(mysql)
 2. engine version
 3. instance class
-4. db-name
-5. username
-6. password
-7. storage(20gb)
+4. Multi-AZ deployment
+5. Retention period 
+6. username
+7. password
+8. storage(20gb) gp3 or IOPS
