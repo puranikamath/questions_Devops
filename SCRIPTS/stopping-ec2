@@ -1,27 +1,18 @@
 #!/bin/bash
 
-# Define your EC2 instance ID
-INSTANCE_ID="your-instance-id"
+instance_id="YOUR_INSTANCE_ID"
 
-# Start EC2 instance
-start_instance() {
-    echo "Starting EC2 instance..."
-    aws ec2 start-instances --instance-ids $INSTANCE_ID
-}
+while true; do
+    current_hour=$(date +"%H")
+    current_minute=$(date +"%M")
 
-# Stop EC2 instance
-stop_instance() {
-    echo "Stopping EC2 instance..."
-    aws ec2 stop-instances --instance-ids $INSTANCE_ID
-}
+    if [ "$current_hour" -eq 17 ] && [ "$current_minute" -eq 0 ]; then
+        aws ec2 stop-instances --instance-ids "$instance_id"
+        echo "EC2 instance stopped."
+    fi
 
-# Get current hour in 24-hour format
-current_hour=$(date +"%H")
-
-# Check if it's 8:00 AM
-if [ $current_hour -eq 8 ]; then
-    start_instance
-# Check if it's 8:00 PM
-if [ $current_hour -eq 20 ]; then
-    stop_instance
-fi
+    if [ "$current_hour" -eq 8 ] && [ "$current_minute" -eq 0 ]; then
+        aws ec2 start-instances --instance-ids "$instance_id"
+        echo "EC2 instance started."
+    fi
+done
