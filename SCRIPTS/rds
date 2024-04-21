@@ -5,3 +5,11 @@
   password             = "password"
   allocated_storage    = 20
   storage_type         = "gp2"
+
+1. select engine(mysql)
+2. engine version
+3. instance class
+4. db-name
+5. username
+6. password
+7. storage(20gb)
