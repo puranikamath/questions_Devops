@@ -49,6 +49,7 @@
 6. How you will allocate the metrix? 
 7. Do you have any check in CICD?
 8. Difference b/w play and playbook
+  ANS: play represents a set of tasks 
 9. Difference b/w resource & module in terraform 
 10. I want to deploy 3 environment(dev,prod,test) using single module, how can I do that, how do you do this configuration?Explain
 11. How you maintain secrets in Terraform what are the options you have
