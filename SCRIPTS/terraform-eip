@@ -1,0 +1,16 @@
+provider "aws" {
+  region = "your-aws-region"
+}
+
+resource "aws_instance" "example" {
+  ami           = "your-ami-id"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "example-instance"
+  }
+}
+
+resource "aws_eip" "example" {
+  instance = aws_instance.example.id
+}
