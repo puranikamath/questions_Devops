@@ -1,0 +1,10 @@
+1. difference between sidecar and init container
+ ANS: they serve different purposes and operate at different stages of the container lifecycle:
+  Sidecar Container:A sidecar container runs alongside the primary container within the same pod and provides additional capabilities or services 
+  to the primary container without altering its core functionality.
+  mainly for Logging, monitoring, security enforcement
+  Runs concurrently with the primary container and shares the same lifecycle. It starts and stops along with the primary container.
+ Init Container:is run before the primary container starts, and its purpose is to perform initialization tasks or
+   prepare the environment for the primary container.
+   mainly for configuration files, downloading dependencies
+Helper Container (Generic Term) it refers to both init and sidecar
