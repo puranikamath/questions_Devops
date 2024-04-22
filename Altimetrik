@@ -90,7 +90,12 @@ what is the configuration we tell ASG to increase EC2 instance
 I have an EC2 instance  running, I stop that ec2 instance and come back after 2 days and start it back , what will happen to the data?
 When you use ALB and NLB?
 what is sidecar?
+
 Consider there is a issue with application, manager ask you to send logs? There are 100s of pods how you take logs of these pods ?which log tool guys are using ? How you share logs to the manager?
+ANS:using grafana,we have to navigate to the relevant dashboard and find which pod is causing it and Use Prometheus queries 
+   or Grafana's built-in querying capabilities to filter logs based on pod names, labels, namespaces, or specific time ranges.
+   Once you've filtered the logs to include only those from the relevant pods, Grafana typically allows you to export logs. export logs for a specific time range and we share with manager using sharepoint or email or teams
+
 I have 5 master node and 10 worker node. My master node crashes what happen to the worker node? what will happen to the running application?
 What are private modules in terraform?
 What is state locking in terraform?
