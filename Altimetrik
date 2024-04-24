@@ -108,3 +108,60 @@ Write a sample docker file
 Write a Deployment yml file?
 Write a jenkin file to login to docker registry and push image to docker registry
 Jenkins server is not running how do fix it, What are the linux commands you use , how do you fix it
+1. have you gone through job description?
+2. introduction
+3. what are all the frenquntly resources you created in terraform
+4. share screen and open notepad - create terraform module of instance and create instance using module
+5. what are the commands you will be using for creating this instance
+6. explain terraform pipeline
+7. how you manage multiple envs
+8. one person created ec2 instance in console, how you manage this instance, importing steps
+9. created ec2 instance with t2.micro but one person from management changed it to t2.medium for some upgarding activity , i don't want this to be detected by terraform is it possible 
+   be default it will detect when we do plan or apply i don't terraform to detect this is there is any option?
+10. how you manage state file? how do you manage creadentials for different envs
+11. what activities you do in k8s
+12. explain about your cluster and application
+13. how you created eks module using terraform
+14. which version of k8s using
+15. I have to deploy 2 applications say app1 and app2 on k8s cluster what are kubernates objects files you will write and explain how routing happens and whre you provide request has to go
+    app1 
+16. write all objects you have worked and explain what purpose you used
+17. did you write manifest file for pod or deployment
+18. how you pass environment varibles to your container
+19. how you created HPA
+20. what is CA
+21. how creats LB?
+22. where you mention path like app1 and app2
+23. i want to access app1, what will be my target and where will you be routing it(where you mention source and destination)
+24. is it possible to run 3 containers in same deployment, where my request goes to i mean which container
+25. in LB which are the target groups
+26. what about DNS, i want to access application using DNS not by LB URL
+27. how you secure K8s
+28. how you are login to cluster using service account or IAM roles
+29. how you secure application
+30. explain CICD
+31. explain helm charts
+32. given below 2 ingress files, how do you convert it into helm file
+33. what are all commands you use in helm
+34. i want to deploy it into dev only how do you pass values related to dev only
+35. how you configure helm
+36. lets say u configured it will helm in CICD for helm install it take 30 minutes what happens to your pipeline will it wait for completion of charts or goes it just say it's 
+    completed? if it waits how long it will wait
+37. how you do rollback of application
+38. explain about Gitlab runners
+39. explain steps of gitlab pipeline
+40. what kind of work you did in gitlab, enhancement work or scrach 
+41. what you understand from sonar report 
+42. what are all vulanariblities you come across
+43. have you used shared library in jenkins and explain it
+44. explain how you create gitlab pipeline
+45. what are all requests you get to create resources in aws
+46. worked on RDS
+47. how to migrate database to aws
+48. i have ec2, postgress and s3 in one region now client wants to migrate to another region how you do it?
+49. worked on lambda services, api gateways
+50. any cost optimazation you have worked and explain 
+51. how you monitor you application
+52. i created new ec2 instance I want to monitor using promethus and grafana how you do it
+53. which tools you used for logging 
+54. worked on splunk or ELK
