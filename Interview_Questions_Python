@@ -1,1 +1,31 @@
+1. write script in python or shell to tag ec2 instance if it's not tagged if it's tagged it has to skip it 
+2. write script in python or shell given port number is open or not open
+3. How memory is managed in python. What is pyspark? Have you worked on pyspark?
+4. What are the things you have worked as part of pandas library. Usage with an example
+5. json_data = {
+    "repo1": ["branch1", "branch3", "branch5", "branch6", "branch4"],
+    "repo2": ["branch2", "branch3", "branch4"],
+    "repo3": ["branch2", "branch10"],
+    "repo4": ["branch5", "branch1"],
+    "repo5": ["branch6", "branch10"]
+}
+ 
+write a python script to read a csv file which contains branch names and compare with the json_data provided and pull the repo name and print.
+ 
+Branch Names in CSV file.
+"Branch1","branch5","branch2","branch10"
+
+6. Different data types in python?
+7. Different python libraries?
+8 What automation have you done using python?
+9 Have you used tuples?
+10. How will you use python to fetch monitoring data from grafana?
+11. Have you written any python scripts to fetch data from pipeline?
+12. What is a pickle and unpickle in Python?
+13. What is your proficiency in python 
+14. Write a logic to check whether two strings are anagram
+15. write python script "hello world" how many times each charaters are there in string without builtin functions 
+
+
+
 
