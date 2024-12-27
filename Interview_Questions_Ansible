@@ -1,1 +1,23 @@
+explain modules in ansible and explain playbook to install application
+ do you have expierence on upgrading and patching, what level of patching and while tool your using and process
+  Answer: yes 1. Application level 2. OS leve/l  Configuration Management tools like ansible
+ Difference b/w play and playbook?  ANS: play represents a set of tasks 
+I want to deploy 3 environment(dev,prod,test) using single module, how can I do that, how do you do this configuration?Explain
+Write ansible playbook
+How do you declare variables in ansible, write sample ansible playbook for it
+Can we manage Windows Nano Server using Ansible?
+Explain ansible architecture?
+Explain how you will copy files recursively on a host?
+expalin ansible modules each
+Explain Callback_plugin in Ansible
+How many Target host you have managed via ansible
+Explain ansible facts
+Explain server provisioning+configurationanagement you used in your project
+Write an ansible playbook to install a software
+explain about static and dynamic inventory 
+how will you deploy file to minion of other minion
+ANS: using ansible copy module
+
+
+
 
