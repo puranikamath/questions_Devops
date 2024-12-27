@@ -1,1 +1,44 @@
+how frequently your writting terraform template
+  ANS : I write Terraform templates as needed based on project requirements and infrastructure changes. The frequency can vary depending on the project workload
+write template to create aws loadbalancer I need working template
+Difference b/w resource & module in terraform 
+I want to deploy 3 environment(dev,prod,test) using single module, how can I do that, how do you do this configuration?Explain
+How you maintain secrets in Terraform what are the options you have
+Difference b/w state file & log file
+I have created resource using terraform. later I change terraform version  1.3 to 1.5 , I changed this value in all *.tf files. When I do terraform init          	
+and apply what happens? Weather it will change or if you will get error, what error you will get 
+
+What are private modules in terraform?
+What is state locking in terraform?
+we have terraform configuration that has no resources, if I execute the terraform apply command what will happen
+there some resources created earlier using some terraform configuration file? If I go the configuration file and modify it I will all resources in the configuration file, now I perform terraform apply command what happens
+what are all the frenquntly resources you created in terraform
+share screen and open notepad - create terraform module of instance and create instance using module
+explain terraform pipeline
+how you manage multiple envs
+one person created ec2 instance in console, how you manage this instance, importing steps
+created ec2 instance with t2.micro but one person from management changed it to t2.medium for some upgarding activity , i don't want this to be detected by terraform is it possible  be default it will detect when we do plan or apply i don't terraform to detect this is there is any option?
+how you manage state file? how do you manage creadentials for different envs?
+What is Modules in terraform ->When there are modules available in registry why did you choose writing custom modules
+Write/brief about a terraform module to provision an infra of your choice
+explain terraform life cycle
+what information details will state file contains?
+what if we lost the state file can we generate back?
+explain terraform backend?
+how frequently your writting terraform template
+why do you use state file ? how the state file configuration is done? why do you keep state file?
+Explain the state locking and why do you use?	
+write a terraform to create a ec2 instance and change the default ip to ellastic ip?
+Suppose two persons change the terraform file and apply their changes what would happen, how do you prevent such a thing from happening
+What is the backend you used for terraform, could you write your backend config - for this he was interested in the Dynamo db table
+Where did you keep your state files
+Where were your terraform scripts stored at
+Explain terraform workflow
+What are private modules in terraform?
+What is state locking in terraform?
+we have terraform configuration that has no resources, if I execute the terraform apply command what will happen
+there some resources created earlier using some terraform configuration file? If I go the configuration file and modify it I will all resources in the configuration file, now I perform terraform apply command what happens
+company is emprasing infrastructure as code to automate provisioning and configuraing along application delployment how would you integrate the tool like terraform/ aws with ci/cd pipeline to provision nd manage with app deployment discuss strategy of versioning nd testing orcestrating infrastructure resources changes.
+what do you mean by terragrunt in terraform
+
 
