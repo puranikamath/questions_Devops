@@ -1,1 +1,119 @@
+have you configured RDS and explain process
+have you worked on cost optimizaion project- how you do it
+how you are checking vulunaribility 
+In 10 nodes I want to change 3 nodes as instance type t2 to t3 series. How can I change it ? where I have this option?
+Explain how your going to setup & monitor your cluser step by step . Explain each process
+What is Lambda function
+In route 53 what are the configurations are there 
+What are the rules mention in s3 bucket which rule I need to select for static website
+Write a IAM policy for s3 bucket ? What are the actions you will mention in it?
+ How you configure load balancer using route 53 
+what is service account
+I have s3 bucket in one region ang KMS in another region? 
+How you connect 5 vpc ? 
+How do you clean up your EC2 instance.
+what is your roles and responsibility
+Explain the process of involved in migration from onpremise to aws?
+Have you worked on Route 53, why it is route 53, why it is not called route 54 or 55?
+what is MX record ? we use A record when we use CNAME record?
+I have 2 EC2 instance running, there is a ALB before that. In this case which record you use to map your request to EC2 instance--> we use CNAME record
+Explain about autoscaling group
+There are 5 ec2 running, let say there are more traffic comming need to increase ec2 instance from 5 to 10. Based on what your ASG comes to know, that it has to increase the number of ec2 instance? 
+what is the configuration we tell ASG to increase EC2 instance
+I have an EC2 instance  running, I stop that ec2 instance and come back after 2 days and start it back , what will happen to the data?
+When you use ALB and NLB?
+what is sidecar?
+have you gone through job description?
+ what is CA
+how creats LB?
+where you mention path like app1 and app2
+ i want to access app1, what will be my target and where will you be routing it(where you mention source and destination)
+in LB which are the target groups
+what about DNS, i want to access application using DNS not by LB URL
+what are all vulanariblities you come across
+what are all requests you get to create resources in aws
+worked on RDS
+how to migrate database to aws
+i have ec2, postgress and s3 in one region now client wants to migrate to another region how you do it?
+ worked on lambda services, api gateways
+any cost optimazation you have worked and explain 
+how you monitor you application
+i created new ec2 instance I want to monitor using promethus and grafana how you do it
+which tools you used for logging 
+tell me aws services you have used
+in route53 what is the use of hosted zone and record set
+difference b/w A record and quad A
+in ec2 instance what is the meaning of instance metadata and userdata and how you going to access them and where you find it   and modify it(someone have given that) you joined lately and   you have to modify it (where does aws stores this data)
+ ANS: instance metadata provides information about the instance itself, 
+ while user data allows to pass custom configuration or initialization instructions to the instance during launch.  cat /var/lib/cloud/instance/user-data.txt
+have you worked on platform as service 
+ ANS: Amazon RDS,Amazon DynamoDB,s3,
+How did you configure loadbalancer in your application?
+what aws services you have worked?
+explain about vpc and sub component?
+have you get chance to work with lamdas?
+have you heard about waf?
+what data base have you worked on? can you explain mogo db
+what is idempotency? ( related to API)
+explain ebs and efs?
+Are you aware of Amazon code pipeline
+You have EBS in one region, how do you take a backup to another region
+What are the cost optimization steps you have taken for your AWS services
+Was there any scenario where you had to load from a S3 backup. How did you do that
+ Difference between ALB and NLB
+WAF, ACL and NACL how do you configure that 
+Calculate CIDR for a given range
+What is ARM and it's benefits. Mainly was expecting the use case
+Have you used codeguru, cloud formation templates, code pipeline what is the difference between these
+How do you control traffic spikes to your service 
+What are the resources and metrics which were monitored using cloud watch
+ What are the networking concepts you are aware of. What is the use of a transit gateway
+Suppose you have multiple accounts how do you establish communication between VPC's using transit gateway in that case
+What is a rail transit system, I don't know anything about it, help me to understand and explain interms of a layman..
+What are the cybersecurity principles you are aware of
+What are the different metrics which can be gathered via cloudfront
+How did you decide what should be the loads and how did you distribute your cpu and network load
+Have you setup a CDN
+What are the network concepts you are aware of, and  configuring of ACL, NACL was done by your network team or you?
+How will you create a secret 
+What kinds of EC2 instances are there in AWS
+Explain s3 lifecycle & its policy
+Difference b/w security group & NACL
+what is MX record ? we use A record when we use CNAME record?
+I have 2 EC2 instance running, there is a ALB before that. In this case which record you use to map your request to EC2 instance--> we use CNAME record
+Explain about autoscaling group
+tell me about consideration such as hybrid cloud, networking, work-load probability 
+discuss technique interact with api and managing configuration file and integrating with container registory
+how do you manage the disaster recovery in aws s3
+what is a permanent solution if s3 bucket storage is full?
+why do you create vpc?
+do you managed any resources in terraform?
+how do you monitor ec2 instance?
+How would you set up a highly available web application in AWS using EC2, ELB, and Auto Scaling?
+Can you describe the process of setting up a continuous delivery pipeline in AWS using CodePipeline and CodeBuild?
+Explain the Elastic Beanstalk deployment modes
+use of WAF and rate limiting
+ANS: WAF is a security solution that monitors, filters, and blocks HTTP traffic to and from a web application based on a set of predefined security rules Rate limiting is a technique used to control the rate of incoming requests to a web application or
+ API by imposing limits on the number of requests that can be made within a certain period of time
+which senario you choose ingress, egress vs alb and why
+ANS: Ingress controllers are used to manage inbound traffic to services within a Kubernetes cluster ingress controllers manage outbound traffic from services to external destinations. AWS, ALB may be a preferable option due to its ease of use, seamless integration with AWS services, and cost-effectiveness
+ how ingress different from gateway
+ANS:Ingress operates at Layer 7 (application layer) of the OSI model
+           Layer: Gateway operates at Layer 4 (transport layer) of the OSI model.
+what is auto scaling and policies of it
+ ANS: Auto scaling automatically adjusts the number of instances in response to changes in demand or workload. Scaling Policies: Scale-Up, Scale-Down, 
+what is the use of snap shot?
+You have EBS in a1 region, want to copy the content to a2 region is it possible? if possible how?
+difference between ellastic block storage and instance storage
+why you want to create vpc ? explain 
+difference btween public subnet and private subnet
+under route53 what is private and public zone
+different types of routing policies
+What is multiaz in RDS
+what is object storage? have you worked on object storage
+what are the types of object storage?
+. My EC2 is full how do you handle this
+ Ppk or pem file is deleted. What is the workaround to connect to the instance get the data
+ How to migrate onpremise VM to cloud
+How do you connect on premise VM to cloud
 
