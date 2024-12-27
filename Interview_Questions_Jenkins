@@ -1,1 +1,50 @@
+what type of jobs you have created and which all plugins you used?
+explain stages of pipeline job
+what are build tools you used -explain maven life cycle?
+build is failing in deployment what could be the reason
+build is failing in deployment what could be the reason
+script to take jenkins backup and store it in s3
+how you check java path and how you update java path
+Do you have any check in CICD?
+In declerative pipeline I can write groovy script? can you write sample CICD for that?
+Explain in CICD step by step
+How are you seggregating the environment example I have dev,qa, prod. How would you differenciate I want to deploy on to the dev environment.
+In pipeline after CI it is asking for any approval for deploy?
+I have 5 master node and 10 worker node. My master node crashes what happen to the worker node? what will happen to the running application?
+Write a jenkin file to login to docker registry and push image to docker registry
+Jenkins server is not running how do fix it, What are the linux commands you use , how do you fix it
+explain CICD
+lets say u configured it will helm in CICD for helm install it take 30 minutes what happens to your pipeline will it wait for completion of charts or goes it just say it's   completed? if it waits how long it will wait
+what you understand from sonar report 
+have you used shared library in jenkins and explain it
+Explain the CI/CD of your project
+How to pass built in values from Git or gitlab to your deployment pipeline?
+what are the CI/CD tools have you worked and explain complete pipeline work?
+how do you save the sensitive information in jenkins?
+what are the deployment strategy you  have used?
+How were you passing environment variables to kubernetes via your Jenkins
+explain ci cd pipeline? what are the challenges faced in CI CI pipeline?
+Explain you CI/CD pipeline
+Share your screen and write your CI CD pipeline
+Suppose you want to upgrade Jenkins, without having downtime how do you do that.
+How do you take Jenkins backup, where do you store the backup, how frequently you used to take back up. How the backup scripts used to get triggered
+What is the deployment strategy you are aware of
+Why did you choose canary deployment 
+What is blue green deployment strategy 
+How were the different environments managed via Jenkins pipelines
+Explain your Jenkins CI/CD. As you deal with customer how was the complex application shipped and deployed to your customer
+How were your infra pipeline and application pipeline configured and different. How do you used to trigger then
+Was the sonar scan report automated, if so how do you used to read the output and pass/fail the build
+How are you seggregating the environment example I have dev,qa, prod. How would you differenciate I want to deploy on to the dev environment.
+In pipeline after CI it is asking for any approval for deploy?
+Write a jenkin file to login to docker registry and push image to docker registry
+your team has task with implimenting CI/CD pipeline for a new apex module how would you design nd configure pipeline to ensure seamless integration nd deplyment of the module.
+how  blue-green deployment strategy was on AWS involves creating two identical environments and how you set up?
+how can you setup jenkins job process
+explain about shared library in jenkins
+explain how you handle exception in jenkin pipeline
+ Write a Jenkins pipeline which should handle multiple environments 
+
+
+
 
