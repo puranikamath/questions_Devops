@@ -1,1 +1,19 @@
+explain dockerfile
+ how you achive multistage docker image
+what is exec stands for
+Write a sample docker file 
+how you pass environment varibles to your container
+is it possible to run 3 containers in same deployment, where my request goes to i mean which container
+can you explain the docker file instructions?
+how do you optimize docker images for size
+what is init container and when you use that?
+Diff b/w ADD & COPY 
+What is Deamonset why we use Deamonset?
+Write a sample docker file
+Write a Deployment yml file?
+security is paramount concern when using docker container in production environment how would you design and impliment the comprehensive security strategy for dockerised obrevation and discuss the technique for 
+security container  runtime security, network segmentation, and vulnarability scanning, access control and profile quality
+what are the monitoring tool available
+monitoring and login are essentialand diagnozing issues in dockerised importance how would design a monitoring and logging solution that provide inside into container help a reource utilization and application performance discuss the tools and details for collecting container matrix agregating log setting up alerts and provisioning issues
+what is the use of persistant volume and Persistent volume claim (PVC) ? explain with example?
 
