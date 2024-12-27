@@ -1,1 +1,13 @@
+what is adhoc commands , tell me some adhoc commands
+What is ask sudo pass and explain
+Where to find Linux debug logs
+Are you aware of what SID, gid could you explain
+What are the commands you are aware of to check the Linux machine performance
+What do you understand when a file has permission 0774
+Jenkins server is not running how do fix it, What are the linux commands you use , how do you fix it
+differnce b/w softlink and hardlink
+how to figure out which crone job chokes up your system in linux and describe process to fix it (how do you identify which crone job is responsible for which process)
+ANS:/var/log/cron
+why mounting is used?
+
 
