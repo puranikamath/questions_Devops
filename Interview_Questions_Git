@@ -1,1 +1,16 @@
+Explain Branching strategy 
+explain about Gitlab runners
+explain steps of gitlab pipeline
+what kind of work you did in gitlab, enhancement work or scrach 
+explain how you create gitlab pipeline
+How do you protect the release branch?
+Have you worked on gitlab?
+what is git stash?
+difference git pull and fetch?
+how hotfix branch works with example?
+A developer does some wrong changes but he hasn't committed his changes, what are the steps he would perform to rectify it
+How do you decide a branching strategy. What are the different branching strategies you are aware of
+diff between git revert and git reset
+Diff b/z git pull & clone
+Explain the process of PR[pull request]
 
