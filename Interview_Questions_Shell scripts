@@ -1,1 +1,13 @@
  what all scripts you have written to automate - why you writen to monitore disk space -don't you have monitoring tools
+1. what all scripts you have written to automate - why you writen to monitore disk space -don't you have monitoring tools
+Answer : :can modify the .bashrc or .bash_profile file
+  export JAVA_HOME=/path/to/java
+  export PATH=$JAVA_HOME/bin:$PATH
+  Temporary Update:
+  export PATH=/path/to/java/bin:$PATH
+2. write script in python or shell to tag ec2 instance if it's not tagged if it's tagged it has to skip it 
+3. write script in python or shell given port number is open or not open
+4. how would you design shell script to interact with these platform nd deploy appln scales services and performance rolling update
+5.  write script to turn of aws ec2 instances at 5pm and turn on in morning 8am everyday
+6. write script to delete all empty files under a directory 
+
